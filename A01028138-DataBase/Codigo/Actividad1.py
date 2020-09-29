@@ -26,4 +26,6 @@ with open("greenhouse_gas_inventory_data_data.csv") as csvFile:
 co2_2010.sort(reverse=True)
 print(co2_2010[:5])
 
+#Si, los datos se relacionan ya que los paises con mayor poblacion son los que mas gases invernaderos producen, cabe resaltar que China, India, Indonesia y Brazil no estan siendo tomados en cuenta en los datos de gases invernaderos.
+
 
